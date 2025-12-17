@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/LinkOpener" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
