@@ -5,7 +5,8 @@ import Tabs from "react-bootstrap/Tabs";
 
 const STORAGE_KEY = "saved_url_templates";
 
-const Home = () => {
+const 
+Home = () => {
   const [link, setLink] = useState("");
   const [keys, setKeys] = useState([]);
   const [activeKey, setActiveKey] = useState("");
@@ -292,7 +293,7 @@ const Home = () => {
             </Tabs>
 
             <button className="btn btn-success mt-3" onClick={startRun}>
-              Start Test Run
+              Open to check URLs
             </button>
           </>
         )}
