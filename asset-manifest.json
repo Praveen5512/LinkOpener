@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LinkOpener/static/css/main.67dee47f.css",
+    "main.js": "/LinkOpener/static/js/main.e925a870.js",
+    "static/js/453.d0ef7da8.chunk.js": "/LinkOpener/static/js/453.d0ef7da8.chunk.js",
+    "index.html": "/LinkOpener/index.html",
+    "main.67dee47f.css.map": "/LinkOpener/static/css/main.67dee47f.css.map",
+    "main.e925a870.js.map": "/LinkOpener/static/js/main.e925a870.js.map",
+    "453.d0ef7da8.chunk.js.map": "/LinkOpener/static/js/453.d0ef7da8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67dee47f.css",
+    "static/js/main.e925a870.js"
+  ]
+}
