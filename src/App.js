@@ -1,17 +1,19 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
+import Header from "./Header";
 
 import Batching from "./components/Batching";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
+        <Header />
         <Routes>
-          <Route path="/LinkOpener" element={<Home />} />
-          <Route path="/LinkOpener/batching" element={<Batching />} />
+          <Route path="/home" element={<Home />} />
+          <Route exact path="/batching" element={<Batching />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import Header from "./Header";
+
 import { useState, useRef, useEffect } from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
@@ -204,7 +204,7 @@ Home = () => {
 
   return (
     <div className="container-fluid">
-      <Header />
+     
 
       <div className="container mt-4">
         {/* URL INPUT */}
